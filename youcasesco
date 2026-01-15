@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YOUCasesCo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #fff6fa;
+      color: #4a4a4a;
+    }
+
+    header {
+      background-color: #f7c1d9;
+      padding: 25px;
+      text-align: center;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ffffff;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 70px 20px;
+      text-align: center;
+      background: linear-gradient(to bottom, #fde2ec, #fff6fa);
+    }
+
+    .hero h1 {
+      font-size: 2.3em;
+      color: #d96c9c;
+    }
+
+    .hero p {
+      font-size: 1.1em;
+      color: #8a4f6b;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background-color: #f7c1d9;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      padding: 50px 30px;
+    }
+
+    .product {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(247, 193, 217, 0.4);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .product h3 {
+      margin-top: 15px;
+      color: #d96c9c;
+    }
+
+    .product p {
+      font-weight: 600;
+      color: #8a4f6b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #fde2ec;
+      color: #8a4f6b;
+      margin-top: 30px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>YOUCasesCo</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Pretty Phone Cases Made Just for You</h1>
+  <p>Soft • Trendy • Pastel Aesthetic</p>
+  <a class="button" href="#">Shop Now</a>
+</section>
+
+<section class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/300" alt="Phone Case">
+    <h3>Blush Floral Case</h3>
+    <p>$19.99</p>
+    <a class="button" href="#">Buy Now</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300" alt="Phone Case">
+    <h3>Soft Pink Minimal Case</h3>
+    <p>$18.99</p>
+    <a class="button" href="#">Buy Now</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300" alt="Phone Case">
+    <h3>Custom Name Case</h3>
+    <p>$22.99</p>
+    <a class="button" href="#">Buy Now</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 YOUCasesCo • Designed with ♡</p>
+</footer>
+
+</body>
+</html>
